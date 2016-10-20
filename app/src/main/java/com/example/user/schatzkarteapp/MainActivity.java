@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
         controller.setZoom(18);
 
 // Die TileSource beschreibt die Eigenschaften der Kacheln die wir anzeigen
-        XYTileSource treasureMapTileSource = new XYTileSource("mbtiles", 1, 20, 256, ".png", "http://example.org/");
+        XYTileSource treasureMapTileSource = new XYTileSource("mbtiles", 1, 20, 256, ".png",new String[] {"http://example.org/"});
 
         File file = new File(Environment.getExternalStorageDirectory() /* entspricht /sdcard/ */, "hsr.mbtiles");
 
