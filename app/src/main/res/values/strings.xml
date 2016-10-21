@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Schatzkarte App</string>
+    <string name="no_hsr_mbtiles" />
 </resources>
