@@ -69,7 +69,6 @@ public class MainActivity extends Activity implements LocationListener {
         XYTileSource treasureMapTileSource = new XYTileSource("mbtiles", 1, 20, 256, ".png",new String[] {"http://example.org/"});
 try {
     File file = new File(Environment.getExternalStorageDirectory() /* entspricht /sdcard/ */, "hsr.mbtiles");
-
     Log.d("fd", file.getAbsolutePath());
 /* Das verwenden von mbtiles ist leider ein wenig aufwändig, wir müssen
  * unsere XYTileSource in verschiedene Klassen 'verpacken' um sie dann
